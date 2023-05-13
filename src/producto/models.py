@@ -1,5 +1,5 @@
 from django.db import models
-
+from proveedor.models import Proveedor
 # Create your models here.
 class Producto(models.Model):
 	nombre = models.CharField(max_length=50)
